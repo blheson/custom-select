@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 1.3rem;
+        }
+
+        .custom-box {
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            align-items: center;
+            align-content: center;
+        }
+
+        .clicktoshow {
+            cursor: pointer;
+            text-align: center;
+            background: #509696;
+            padding: 1rem;
+            width: 209px;
+        }
+
+        .customOption {
+            padding: 1rem;
+            border-radius: 5px;
+            background: #ddd;
+        }
+
+        .customOption>div {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #bfbfbf;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .customOption>div:hover {
+            border-bottom: 1px solid #8d8d8d;
+        }
+
+        input {
+            padding: 1rem;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="custom-box">
+            <select name="custom" id="">
+                <option value="1">First</option>
+                <option value="2">Second</option>
+                <option value="3">Third</option>
+                <option value="4">Fourth</option>
+                <option value="5">Fifth</option>
+            </select>
+
+        </div>
+        <div class="custom-box">
+            <select name="custom" id="">
+                <option value="1">First</option>
+                <option value="2">Second</option>
+                <option value="3">Third</option>
+                <option value="4">Fourth</option>
+                <option value="5">Fifth</option>
+            </select>
+        </div>
+
+    </main>
+
+    <script src="../src/app.js">
+    </script>
+    <script>
+        customSelect.init(true)
+    </script>
+</body>
+
+</html>
