@@ -4,7 +4,7 @@ Convert your old select html to more interactive searchable select popup. User c
 
 add custom select to your code through 
 ```
-<script src="path/to/custom-select.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/blheson/custom-select/src/app.js"></script>
 ```
 In your main script
 ```
