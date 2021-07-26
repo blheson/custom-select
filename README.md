@@ -8,7 +8,7 @@ add custom select to your code through
 ```
 In your main script
 ```
-customSelect.init(true,options);
+customSelect.init(options);
 ```
 
 In your html, convert
